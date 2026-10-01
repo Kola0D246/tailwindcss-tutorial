@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-    --color-dark-blue: oklch(35.25% 0.07194 232.022);
-    --color-primary-blue: oklch(78.617% 0.1353 229.056);
-    --color-secondary-blue: oklch(51.681% 0.10792 233.827);
-
+    --color-primary-card: oklch(37.2% 0.044 257.287);
+    --color-secondary-card: oklch(55.4% 0.046 257.417);
+    --color-link: oklch(82.0% 0.250 5.0);
+    --color-link-h: ;
     --font-arial: Arial, sans-serif;
 }
 
