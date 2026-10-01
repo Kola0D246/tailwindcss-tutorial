@@ -7,7 +7,7 @@
     <title>tailwind-css-beginners</title>
   </head>
   <body class="bg-slate-950 text-white">
-    <header class="mx-auto max-w-3xl px-4 py-3">
+    <header class="mx-auto max-w-5xl px-4 py-3">
       <nav>
         <ul class="flex gap-x-4 gap-y-1 justify-center sm:justify-between text-sm uppercase tracking-wider">
           <li class="sm:me-auto"><a href="" class="hover:bg-pink-500 transition-colors p-2 rounded-sm">Home</a></li>
@@ -18,12 +18,16 @@
       </nav>
     </header>
 
-    <section class="space-y-5 text-center mx-auto max-w-3xl px-4 py-12">
-      <h1  class="text-4xl font-bold"> Lets learn tailwindcss </h1>
-      <p class="text-base/6">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nam soluta nesciunt, commodi repellendus, minima odio aspernatur recusandae temporibus esse corrupti libero reiciendis, ea doloremque repellat numquam excepturi voluptas adipisci.
-      </p>
-      <a href="" class="inline-block bg-pink-700 hover:bg-pink-500 px-7 py-2 rounded-full transition-colors">Click Here</a>
+    <section class="grid md:grid-cols-2 items-center gap-5 mx-auto max-w-5xl px-4 py-12">
+      <img src="/public/town.jpg" alt="Town" width="512px" height="360px" class="rounded-sm m-auto md:order-last">
+
+      <div class="space-y-5 text-center">
+        <h1 class="text-4xl font-bold"> Lets learn tailwindcss </h1>
+        <p class="text-base/6">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nam soluta nesciunt, commodi repellendus, minima odio aspernatur recusandae temporibus esse corrupti libero reiciendis, ea doloremque repellat numquam excepturi voluptas adipisci.
+        </p>
+        <a href="" class="inline-block bg-pink-700 hover:bg-pink-500 px-7 py-2 rounded-full transition-colors">Click Here</a>
+      </div>
     </section>
     <script type="module" src="/src/main.ts"></script>
   </body>
