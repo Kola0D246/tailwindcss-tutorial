@@ -5,9 +5,9 @@
     --color-primary-blue: oklch(78.617% 0.1353 229.056);
     --color-secondary-blue: oklch(51.681% 0.10792 233.827);
 
-    --font-arial: Arial, sans-serif
+    --font-arial: Arial, sans-serif;
 }
 
 @utility grid-cols-autofit {
-    grid-template-columns:repeat(autofit, minmax(15rem, 1fr))
+    grid-template-columns:repeat(auto-fit, minmax(15rem, 1fr));
 }
