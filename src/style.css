@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+    --color-dark-blue: oklch(35.25% 0.07194 232.022);
+    --color-primary-blue: oklch(78.617% 0.1353 229.056);
+    --color-secondary-blue: oklch(51.681% 0.10792 233.827);
+
+    --font-arial: Arial, sans-serif
+}
